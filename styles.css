@@ -145,21 +145,25 @@ nav {
     font-size: 16px;
     color: rgba(224, 44, 109, 0.87);
 }
+
 /* feature  */
-.sec-feature{
+.sec-feature {
     margin-top: 150px;
 }
-.feature{
+
+.feature {
     display: flex;
     width: 100%;
     max-width: 1100px;
     gap: 100px;
     margin: 0 auto;
 }
-.feature-title{
+
+.feature-title {
     font-weight: 700;
-font-size: 38px;
+    font-size: 38px;
 }
+
 .feature-description {
     font-weight: 700;
     font-size: 16px;
@@ -174,53 +178,63 @@ font-size: 38px;
     border: none;
     border-radius: 5px;
 }
-footer{
+
+footer {
     margin-top: 120px;
+
 }
-.sec-footer{
+
+.sec-footer {
     background-color: #0A0826;
     justify-content: center;
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px 400px;
 }
-.footer-h{
+
+.footer-h {
     text-align: center;
     font-weight: 700;
-font-size: 24px;
-color: #FFFFFF;
-}
-.footer-p{
-    text-align: center;
-    font-weight: 700;
-font-size: 14px;
+    font-size: 24px;
     color: #FFFFFF;
 }
-.f-icons{
+
+.footer-p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.f-icons {
     display: flex;
     justify-content: center;
     gap: 40px;
     color: #FFFFFF;
     margin: 0 auto;
 }
+
 /* responsive */
 @media only screen and (max-width: 576px) {
     .nav-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
     }
 
     .nav-container ul {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: left;
+        padding-left: 10px;
     }
 
     .intros {
         flex-direction: column-reverse;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-
+        padding-left: 10px;
     }
 
     .intro-logos {
@@ -228,19 +242,29 @@ font-size: 14px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        padding-left: 10px;
     }
 
     .item-stuffs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
     }
-    .feature{
-        flex-direction:column;
+
+    .feature {
+        flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        padding-left: 10px;
     }
-    footer{
-        width: 100%;
-        padding: 50px 80px;
+
+    footer {
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .footer-h, .footer-p{
+        text-align: center;
     }
 }
