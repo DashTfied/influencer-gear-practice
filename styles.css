@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container{
+    padding: 90px 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-weight: 600;
+font-size: 16px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
