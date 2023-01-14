@@ -174,7 +174,32 @@ font-size: 38px;
     border: none;
     border-radius: 5px;
 }
-
+footer{
+    background-color: #0A0826;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 400px;
+}
+.footer-h{
+    text-align: center;
+    font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+}
+.footer-p{
+    text-align: center;
+    font-weight: 700;
+font-size: 14px;
+    color: #FFFFFF;
+}
+.f-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
 /* responsive */
 @media only screen and (max-width: 576px) {
     .nav-container {
@@ -210,5 +235,9 @@ font-size: 38px;
         flex-direction:column;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+    }
+    footer{
+        width: 100%;
+        padding: 50px 80px;
     }
 }
